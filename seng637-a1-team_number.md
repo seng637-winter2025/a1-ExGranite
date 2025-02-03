@@ -12,24 +12,49 @@
 **Table of Contents**
 
 1. [Introduction](#intro)
-2. [High-level description of the exploratory testing plan](#desc)
-3. [Comparison of exploratory and manual functional testing](#comp)
-4. [Notes and discussion of the peer reviews of defect reports](#notes)
-5. [How the pair testing was managed and team work/effort was divided](#work)
-6. [Difficulties encountered, challenges overcome, and lessons learned](#diff)
-7. [Comments/feedback on the lab and lab document itself](#comm)
+2. [Test Plan](#plan)
+    - Test Types(#planA)
+    - Scope of Testing(#planB)
+    - Test Logistics(#planC)
+3. [High-level description of the exploratory testing plan](#desc)
+4. [Comparison of exploratory and manual functional testing](#comp)
+5. [Notes and discussion of the peer reviews of defect reports](#notes)
+6. [How the pair testing was managed and team work/effort was divided](#work)
+7. [Difficulties encountered, challenges overcome, and lessons learned](#diff)
+8. [Comments/feedback on the lab and lab document itself](#comm)
 
 # <a name = "intro"></a>Introduction
 
-This Assignment 1 involved testing for bugs in a software and writing a defect report. We conducted Exploratory testing and Scripted Testing on the [ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar) which was provided in the zip archive [seng637-a1-artifacts.zip](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/seng637-a1-artifacts.zip).
+This assignment involved testing an **ATM simulation system** ([ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar)) for defects and writing a defect report based on our findings. We conducted two types of testing:
+	- **Exploratory Testing**: Unscripted testing to discover unexpected behaviors.
+	- **Scripted Testing**: Following predefined test cases to systematically verify system functionality.
 
-We used [Atlassian Jira](https://www.atlassian.com/software/jira) as a tool for tracking the defects and bugs in our test. This better helped us collaborate as a team. Following the identification of defects, we performed regression testing on the updated version of the system, [ATM System - Lab 1 Version 1.1.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.1.jar), and updated the reported issues accordingly.
+We used [Atlassian Jira](https://www.atlassian.com/software/jira) as our bug-tracking tool to log defects and collaborate efficiently as a team. Following the identification of defects, we performed regression testing on the updated version of the system, [ATM System - Lab 1 Version 1.1.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.1.jar), and updated the reported issues accordingly.
 
 Prior to this assignment, our knowledge of exploratory and scripted testing was minimal. Our experience was limited to non-structured testing, where we simply checked whether our programs worked as expected. This assignment provided us with valuable insights into structured testing methodologies, their differences, and their practical implications.
 
+# <a name = "plan"></a>Test Plan
+## <a name = "planA"></a>Test Types
+
+We performed the following types of testing:
+	- Exploratory Testing: Independant testing to uncover unanticipated bugs.
+	- Scripted Testing: Systematic testing based on the pre-defined test cases.
+	- Regression Testing: Verification of defect fixes in Version 1.1 after identifying issues in Version 1.0.
+
+## <a name = "planB"></a>Scope of Testing
+
+The ATM system was tested for Viewing account balances, epositing cash, withdrawing cash, transferring funds, verifying transaction logs, system behavior under incorrect inputs (e.g., entering invalid PINs, exceeding balance limits, pressing non-existent buttons) etc.
+
+## <a name = "planC"></a>Test Logistics
+
+The testing workload was distributed as follows:
+	- Exploratory Testing: Each team member independently explored the system for defects.
+	- Scripted Testing: Conducted as a pair
+	- Regression Testing: Conducted as a team by re-executing identified defects on Version 1.1.
+
 # <a name = "desc"></a>High-level description of the exploratory testing plan
 
-The exploratory testing approach focused on analyzing how users interact with an ATM system, identifying edge cases, and verifying system behavior under various conditions. Each of us tested both the versins following these key principles in our testing approach: Simulating typical user transactions at an ATM, including balance inquiries, cash deposits, withdrawals, and fund transfers. Exploring possible incorrect user actions, such as pressing invalid buttons or attempting operations with insufficient funds. Checking account balances and system logs after each transaction to verify accuracy. Validating outputs to ensure they correctly reflect the transactions performed.
+Our exploratory testing approach aimed to analyze how users interact with the ATM system, identify edge cases, and verify system behavior under various conditions. Each of us tested both the versins following these key principles in our testing approach: Simulating typical user transactions at an ATM, including balance inquiries, cash deposits, withdrawals, and fund transfers. Exploring possible incorrect user actions, such as pressing invalid buttons or attempting operations with insufficient funds. Checking account balances and system logs after each transaction to verify accuracy. Validating outputs to ensure they correctly reflect the transactions performed.
 
 # <a name = "comp"></a>Comparison of exploratory and manual functional testing
 
@@ -75,4 +100,4 @@ JIRA was used as our issue tracking tool, and it proved to be highly effective f
 
 The assignment instructions and deliverables description was clear, well-structured and easy to follow. The instructions provided a good foundation for conducting both exploratory and scripted testing, ensuring our understanding of the topics.
 
-This assignment significantly imrpoved our understanding of structured testing, issue tracking, and defect management. It provided us with real-world skills that are directly applicable to software testing in professional environments.
+This assignment significantly improved our understanding of structured testing, issue tracking, and defect management. It provided us with real-world skills that are directly applicable to software testing in professional environments.
