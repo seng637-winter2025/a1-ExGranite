@@ -26,8 +26,9 @@
 # <a name = "intro"></a>Introduction
 
 This assignment involved testing an **ATM simulation system** ([ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar)) for defects and writing a defect report based on our findings. We conducted the following:
-	- **Exploratory Testing**: Unscripted testing to discover unexpected behaviors.
-	- **Scripted Testing**: Following predefined test cases to systematically verify system functionality.
+
+- **Exploratory Testing**: Unscripted testing to discover unexpected behaviors.
+- **Scripted Testing**: Following predefined test cases to systematically verify system functionality.
 
 We used [Atlassian Jira](https://www.atlassian.com/software/jira) as our bug-tracking tool to log defects and collaborate efficiently as a team. After identifying defects, we performed regression testing on the updated version of the system, [ATM System - Lab 1 Version 1.1.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.1.jar), and updated the reported issues accordingly.
 
@@ -37,9 +38,10 @@ Prior to this assignment, our knowledge of exploratory and scripted testing was 
 ## <a name = "planA"></a>Test Types
 
 We performed the following types of testing:
-	- Exploratory Testing: Independent testing to uncover unanticipated bugs.
-	- Scripted Testing: Systematic testing based on the predefined test cases.
-	- Regression Testing: Verification of defect fixes in Version 1.1 after identifying issues in Version 1.0.
+
+- Exploratory Testing: Independent testing to uncover unanticipated bugs.
+- Scripted Testing: Systematic testing based on the predefined test cases.
+- Regression Testing: Verification of defect fixes in Version 1.1 after identifying issues in Version 1.0.
 
 ## <a name = "planB"></a>Scope of Testing
 
