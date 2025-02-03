@@ -1,5 +1,4 @@
->   **SENG 637 - Software Testing, Reliability, and Quality**
-
+>   **SENG 637 - Software Testing, Reliability, and Quality**<br>
 >   Assignment \#1 – Introduction to Testing and Defect Tracking
 
 
