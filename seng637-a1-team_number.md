@@ -15,13 +15,13 @@
 (When you finish writing, update the following list using right click, then
 “Update Field”) -->
 
-[1 Introduction](#intro)
-[2 High-level description of the exploratory testing plan](#_Toc439194678)
-[3 Comparison of exploratory and manual functional testing](#_Toc439194679)
-[4 Notes and discussion of the peer reviews of defect reports](#_Toc439194680)
-[5 How the pair testing was managed and team work/effort was divided](#_Toc439194681)
-[6 Difficulties encountered, challenges overcome, and lessons learned](#_Toc439194682)
-[7 Comments/feedback on the lab and lab document itself](#_Toc439194683)
+1. [Introduction](#intro)
+2. [High-level description of the exploratory testing plan](#desc)
+3. [Comparison of exploratory and manual functional testing](#comp)
+4. [Notes and discussion of the peer reviews of defect reports](#notes)
+5. [How the pair testing was managed and team work/effort was divided](#work)
+6. [Difficulties encountered, challenges overcome, and lessons learned](#diff)
+7. [Comments/feedback on the lab and lab document itself](#comm)
 
 # <a name = "intro"></a>Introduction
 
@@ -31,11 +31,11 @@ We used [Atlassian Jira](https://www.atlassian.com/software/jira) as a tool for 
 
 Prior to this assignment, our knowledge of exploratory and scripted testing was minimal. Our experience was limited to non-structured testing, where we simply checked whether our programs worked as expected. This assignment provided us with valuable insights into structured testing methodologies, their differences, and their practical implications.
 
-# High-level description of the exploratory testing plan
+# <a name = "desc"></a>High-level description of the exploratory testing plan
 
 The exploratory testing approach focused on analyzing how users interact with an ATM system, identifying edge cases, and verifying system behavior under various conditions. Each of us tested both the versins following these key principles in our testing approach: Simulating typical user transactions at an ATM, including balance inquiries, cash deposits, withdrawals, and fund transfers. Exploring possible incorrect user actions, such as pressing invalid buttons or attempting operations with insufficient funds. Checking account balances and system logs after each transaction to verify accuracy. Validating outputs to ensure they correctly reflect the transactions performed.
 
-# Comparison of exploratory and manual functional testing
+# <a name = "comp"></a>Comparison of exploratory and manual functional testing
 
 We found more defects through exploratory testing than through scrpted testing. We found hidden defects, that would not be detected through a systemtic testing of function. We found small errors that would not be classified as system bugs in most cases, for example spelling mistakes. This was primarily because exploratory testing allowed us to approach the system in creative and unpredictable ways, uncovering issues beyond the 40 pre-defined scripted test cases.
 
@@ -48,20 +48,20 @@ Both approaches have their strengths, and an optimal testing strategy would invo
 - All the defects found through the **Exploratory Testing** have been tracked and reported in [Exploratory Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Exploratory%20Defect%20Report.xlsx).
 - All the defects found through the **Scripted Testing** have been tracked and reported in [Scripted Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Scripted%20Defect%20Report.xlsx).
 
-# Notes and discussion of the peer reviews of defect reports
+# <a name = "notes"></a>Notes and discussion of the peer reviews of defect reports
 
 Due to our team only having two members, our peer review process first involved each of us performing exploratory testing on both the versions 1.0 and 1.1. The reports were combined to get a sum total of the number of defect reported. Then, we worked as a pair to perform the scripted testing on the 40 funcitonalities on both the versions and report their outcomes.
 
 We discovered that each member had a unique way of interacting wit the system, which resulted in the significantly higher number of defects reported through exploratory testing. There were quite a number of differences between the two of our tests. For example, running the system through the terminal gives the output from the exceptions thrown in the terminal. This was found due to the pair testing method.
 
-# How the pair testing was managed and team work/effort was divided 
+# <a name = "work"></a>How the pair testing was managed and team work/effort was divided 
 
 We followed a structured approach in our testing.
 
 - **Exploratory Tesing:** Each of use took 1 day to test and explore both the versions and recording any defects. We first tested version 1.0 and recorded the defects. Then we checked them on the updated version. The total defects were then compiled, retested as a pair, and documented.
 - **Scripted Testing:** The 40 scripted test cases were tested on version 1.0 and the outcomes were documented as a pair. One member executed the test, while the other documented. We then conducted the regression testing on version 1.1 using the similar approach and documented the defects.
 
-# Difficulties encountered, challenges overcome, and lessons learned
+# <a name = "diff"></a>Difficulties encountered, challenges overcome, and lessons learned
 
 The challenges faced during the testing were mostly on duplicate bug reports. Some defects were found multiple times from different methods, and they had to be combined. Another thing was that some tests could not be reproduced without closing and restarting the system.
 
@@ -69,7 +69,7 @@ To solve these, we conducted regular team discussions on the virtual platform Zo
 
 We learned that teamwork is crucial and working as a pair significantly improves workflow and time utilization. Using a structured testing method makes defect traking more organized and reproducible.
 
-# Comments/feedback on the lab and lab document itself
+# <a name = "comm"></a>Comments/feedback on the lab and lab document itself
 
 Overall, this lab provided an insightful hands-on experience with exploratory, scripted, and regression testing. It allowed us to gain practical exposure to structured testing methodologies and collaborative defect tracking, which will be valuable in future software projects.
 
