@@ -32,7 +32,9 @@
 # Introduction
 
 This Assignment 1 involved testing for bugs in a software and writing a defect report. We conducted Exploratory testing and Scripted Testing on the [ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar) which was provided in the zip archive [seng637-a1-artifacts.zip](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/seng637-a1-artifacts.zip).
+
 We used [Atlassian Jira](https://www.atlassian.com/software/jira) as a tool for tracking the defects and bugs in our test. This better helped us collaborate as a team. Following the identification of defects, we performed regression testing on the updated version of the system, [ATM System - Lab 1 Version 1.1.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.1.jar), and updated the reported issues accordingly.
+
 Prior to this assignment, our knowledge of exploratory and scripted testing was minimal. Our experience was limited to non-structured testing, where we simply checked whether our programs worked as expected. This assignment provided us with valuable insights into structured testing methodologies, their differences, and their practical implications.
 
 # High-level description of the exploratory testing plan
