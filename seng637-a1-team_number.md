@@ -56,16 +56,33 @@ Both approaches have their strengths, and an optimal testing strategy would invo
 
 # Notes and discussion of the peer reviews of defect reports
 
-Text…
+Due to our team only having two members, our peer review process first involved each of us performing exploratory testing on both the versions 1.0 and 1.1. The reports were combined to get a sum total of the number of defect reported. Then, we worked as a pair to perform the scripted testing on the 40 funcitonalities on both the versions and report their outcomes.
+
+We discovered that each member had a unique way of interacting wit the system, which resulted in the significantly higher number of defects reported through exploratory testing. There were quite a number of differences between the two of our tests. For example, running the system through the terminal gives the output from the exceptions thrown in the terminal. This was found due to the pair testing method.
 
 # How the pair testing was managed and team work/effort was divided 
 
-Text…
+We followed a structured approach in our testing.
+
+- **Exploratory Tesing:** Each of use took 1 day to test and explore both the versions and recording any defects. We first tested version 1.0 and recorded the defects. Then we checked them on the updated version. The total defects were then compiled, retested as a pair, and documented.
+- **Scripted Testing:** The 40 scripted test cases were tested on version 1.0 and the outcomes were documented as a pair. One member executed the test, while the other documented. We then conducted the regression testing on version 1.1 using the similar approach and documented the defects.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+The challenges faced during the testing were mostly on duplicate bug reports. Some defects were found multiple times from different methods, and they had to be combined. Another thing was that some tests could not be reproduced without closing and restarting the system.
+
+To solve these, we conducted regular team discussions on the virtual platform Zoom to compile, refine and complete the defect report and lab report. We implemented a consistent bug report template to ensure the completeness of the defect tracking.
+
+We learned that teamwork is crucial and working as a pair significantly improves workflow and time utilization. Using a structured testing method makes defect traking more organized and reproducible.
 
 # Comments/feedback on the lab and lab document itself
 
-Text…
+Overall, this lab provided an insightful hands-on experience with exploratory, scripted, and regression testing. It allowed us to gain practical exposure to structured testing methodologies and collaborative defect tracking, which will be valuable in future software projects.
+
+The ATM Simulation program was a simple enough system to use and contained enough defects to make the testing process more engaging. It demonstrated the strengths and limitationas of both exploratory and scripted testing.
+
+JIRA was used as our issue tracking tool, and it proved to be highly effective for managing and documenting defects. JIRA’s workflow tracking, issue categorization, and reporting features streamlined our bug-tracking process and enhanced team collaboration.
+
+The assignment instructions and deliverables description was clear, well-structured and easy to follow. The instructions provided a good foundation for conducting both exploratory and scripted testing, ensuring our understanding of the topics.
+
+This assignment significantly imrpoved our understanding of structured testing, issue tracking, and defect management. It provided us with real-world skills that are directly applicable to software testing in professional environments.
