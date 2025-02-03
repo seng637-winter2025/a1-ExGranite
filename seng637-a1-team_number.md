@@ -1,19 +1,16 @@
 >   **SENG 637 - Software Testing, Reliability, and Quality**
+>   Assignment \#1 – Introduction to Testing and Defect Tracking
 
-**Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
 | Group: Group Number      |
 |-----------------|
-| [Ahmad Al Asad](https://github.com/ExGranite)                |   
-| [Saad Zafar Khan](https://github.com/saadz-khan)              |   
-<!-- | Student 3 name               |    -->
-<!-- | Student 4 name                |    -->
+| Ahmad Al Asad                |   
+<!-- | [Ahmad Al Asad](https://github.com/ExGranite)                |   
+| [Saad Zafar Khan](https://github.com/saadz-khan)              |    -->
+| Saad Zafar Khan              |
 
 
 **Table of Contents**
-<!-- 
-(When you finish writing, update the following list using right click, then
-“Update Field”) -->
 
 1. [Introduction](#intro)
 2. [High-level description of the exploratory testing plan](#desc)
