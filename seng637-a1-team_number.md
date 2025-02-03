@@ -15,21 +15,15 @@
 (When you finish writing, update the following list using right click, then
 “Update Field”) -->
 
-[1 Introduction](#_Toc439194677)
-
+[1 Introduction](#intro)
 [2 High-level description of the exploratory testing plan](#_Toc439194678)
-
 [3 Comparison of exploratory and manual functional testing](#_Toc439194679)
-
 [4 Notes and discussion of the peer reviews of defect reports](#_Toc439194680)
-
 [5 How the pair testing was managed and team work/effort was divided](#_Toc439194681)
-
 [6 Difficulties encountered, challenges overcome, and lessons learned](#_Toc439194682)
-
 [7 Comments/feedback on the lab and lab document itself](#_Toc439194683)
 
-# Introduction
+# <a name = "intro"></a>Introduction
 
 This Assignment 1 involved testing for bugs in a software and writing a defect report. We conducted Exploratory testing and Scripted Testing on the [ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar) which was provided in the zip archive [seng637-a1-artifacts.zip](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/seng637-a1-artifacts.zip).
 
