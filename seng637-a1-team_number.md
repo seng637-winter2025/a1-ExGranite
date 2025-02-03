@@ -4,8 +4,8 @@
 
 | Group: Group Number      |
 |-----------------|
-| Ahmad Al Asad                |   
-| Saad Zafar Khan              |   
+| [Ahmad Al Asad](https://github.com/ExGranite)                |   
+| [Saad Zafar Khan](https://github.com/saadz-khan)              |   
 <!-- | Student 3 name               |    -->
 <!-- | Student 4 name                |    -->
 
