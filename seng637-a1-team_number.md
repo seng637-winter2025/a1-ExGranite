@@ -45,6 +45,13 @@ All the defects found through the exploratory testing have been tracked and repo
 
 # Comparison of exploratory and manual functional testing
 
+We found more defects through exploratory testing than through scrpted testing. We found hidden defects, that would not be detected through a systemtic testing of function. We found small errors that would not be classified as system bugs in most cases, for example spelling mistakes. This was primarily because exploratory testing allowed us to approach the system in creative and unpredictable ways, uncovering issues beyond the 40 pre-defined scripted test cases.
+
+Exploratory testing encourages testers to think beyond predefined scenarios, increasing the likelihood of discovering hidden defects. The unrestricted testing approach allows for a wider coverage of potential issues. However, there is the lack of structured documentation, and there is the chance of defects being missed out.
+
+Scripted testing provides a structured and repeatable process, ensuring that all expected features are covered. This allows for clear documentation of test execution and defect tracking and ensures that all testers follow the same process, maintaining consistency across multiple testing rounds. However, the test is limited to predefined cases, restricting hidden defects to be discovered.
+
+Both approaches have their strengths, and an optimal testing strategy would involve a combination of exploratory and scripted testing to achieve maximum coverage.
 
 # Notes and discussion of the peer reviews of defect reports
 
