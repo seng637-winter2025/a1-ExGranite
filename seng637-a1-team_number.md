@@ -4,16 +4,16 @@
 
 | Group: Group Number      |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Ahmad Al Asad                |   
+| Saad Zafar Khan              |   
+<!-- | Student 3 name               |    -->
+<!-- | Student 4 name                |    -->
 
 
 **Table of Contents**
-
+<!-- 
 (When you finish writing, update the following list using right click, then
-“Update Field”)
+“Update Field”) -->
 
 [1 Introduction	1](#_Toc439194677)
 
