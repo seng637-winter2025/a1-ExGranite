@@ -41,8 +41,6 @@ Prior to this assignment, our knowledge of exploratory and scripted testing was 
 
 The exploratory testing approach focused on analyzing how users interact with an ATM system, identifying edge cases, and verifying system behavior under various conditions. Each of us tested both the versins following these key principles in our testing approach: Simulating typical user transactions at an ATM, including balance inquiries, cash deposits, withdrawals, and fund transfers. Exploring possible incorrect user actions, such as pressing invalid buttons or attempting operations with insufficient funds. Checking account balances and system logs after each transaction to verify accuracy. Validating outputs to ensure they correctly reflect the transactions performed.
 
-All the defects found through the exploratory testing have been tracked and reported in [Exploratory Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Exploratory%20Defect%20Report.xlsx).
-
 # Comparison of exploratory and manual functional testing
 
 We found more defects through exploratory testing than through scrpted testing. We found hidden defects, that would not be detected through a systemtic testing of function. We found small errors that would not be classified as system bugs in most cases, for example spelling mistakes. This was primarily because exploratory testing allowed us to approach the system in creative and unpredictable ways, uncovering issues beyond the 40 pre-defined scripted test cases.
@@ -52,6 +50,11 @@ Exploratory testing encourages testers to think beyond predefined scenarios, inc
 Scripted testing provides a structured and repeatable process, ensuring that all expected features are covered. This allows for clear documentation of test execution and defect tracking and ensures that all testers follow the same process, maintaining consistency across multiple testing rounds. However, the test is limited to predefined cases, restricting hidden defects to be discovered.
 
 Both approaches have their strengths, and an optimal testing strategy would involve a combination of exploratory and scripted testing to achieve maximum coverage.
+
+- All the defects found through the exploratory testing have been tracked and reported in [Exploratory Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Exploratory%20Defect%20Report.xlsx).
+
+
+- All the defects found through the scripted testing have been tracked and reported in [Scripted Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Scripted%20Defect%20Report.xlsx).
 
 # Notes and discussion of the peer reviews of defect reports
 
