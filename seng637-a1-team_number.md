@@ -51,10 +51,8 @@ Scripted testing provides a structured and repeatable process, ensuring that all
 
 Both approaches have their strengths, and an optimal testing strategy would involve a combination of exploratory and scripted testing to achieve maximum coverage.
 
-- All the defects found through the exploratory testing have been tracked and reported in [Exploratory Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Exploratory%20Defect%20Report.xlsx).
-
-
-- All the defects found through the scripted testing have been tracked and reported in [Scripted Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Scripted%20Defect%20Report.xlsx).
+- All the defects found through the **Exploratory Testing** have been tracked and reported in [Exploratory Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Exploratory%20Defect%20Report.xlsx).
+- All the defects found through the **Scripted Testing** have been tracked and reported in [Scripted Defect Report.xlsx](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Bug%20Reports/Scripted%20Defect%20Report.xlsx).
 
 # Notes and discussion of the peer reviews of defect reports
 
