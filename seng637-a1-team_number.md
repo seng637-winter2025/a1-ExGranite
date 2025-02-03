@@ -25,7 +25,7 @@
 
 # <a name = "intro"></a>Introduction
 
-This assignment involved testing an **ATM simulation system** ([ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar)) for defects and writing a defect report based on our findings. We conducted the following **Exploratory Testing**: Unscripted testing to discover unexpected behaviors; and **Scripted Testing**: Following predefined test cases to systematically verify system functionality.
+This assignment involved testing an **ATM simulation system** ([ATM System - Lab 1 Version 1.0.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.0.jar)) for defects and writing a defect report based on our findings. We conducted Exploratory Testin and Scripted Testing.
 
 We used [Atlassian Jira](https://www.atlassian.com/software/jira) as our bug-tracking tool to log defects and collaborate efficiently as a team. After identifying defects, we performed regression testing on the updated version of the system, [ATM System - Lab 1 Version 1.1.jar](https://github.com/seng637-winter2025/a1-ExGranite/blob/main/Assignment%201%20-%20artifacts/ATM%20System%20-%20Lab%201%20Version%201.1.jar), and updated the reported issues accordingly.
 
